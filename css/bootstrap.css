@@ -1,0 +1,10 @@
+
+.btn-default {
+  background-color: transparent;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  min-width: 50px;
+}

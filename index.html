@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="css/site.css" rel="stylesheet" >
+  <link href="css/bootstrap.css" rel="stylesheet" >
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+       <div class="btn-group">
+         <ul class="nav navbar-nav">
+              <li><button class="btn btn-default action-bold"><span class="glyphicon glyphicon-bold"></span></button></li>
+              <li><button class="btn btn-default action-italic"><span class="glyphicon glyphicon-italic"></span></button></li>
+              <li><button class="btn btn-default action-underline"><span class="glyphicon">U</span></button></li>
+              <li><button class="btn btn-default action-unformat"><span class="glyphicon">Unformat</span></button></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <ul class="nav navbar-nav">
+            <li><button class="btn btn-default action-p"><span class="glyphicon">Paragraph</span></button></li>
+            <li><button class="btn btn-default action-h1"><span class="glyphicon">Heading 1</span></button></li>
+            <li><button class="btn btn-default action-h2"><span class="glyphicon">Heading 2</span></button></li>
+            <li><button class="btn btn-default action-h3"><span class="glyphicon">Heading 3</span></button></li>
+            <li><button class="btn btn-default action-pre"><span class="glyphicon">< CODE/></span></button></li>
+          </ul>
+        </div>
+     </div>
+   </nav>
+   <div class="container">
+     <div class="editable"></div>
+   </div>
+   <script src="bower_components/jquery/dist/jquery.js"></script>
+   <script src="http://www.alohaeditor.org/download/aloha.min.js"></script>
+   <script>aloha(document.querySelector('.editable'));</script>
+   <script src="js/format.js"></script>
+ </body>
+</html>

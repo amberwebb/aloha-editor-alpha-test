@@ -1,0 +1,28 @@
+{
+  "name": "amber-aloha-editor-test",
+  "version": "1.0.0",
+  "authors": [
+    "Amber Michelle Webb <amichelle.webb@gmail.com>"
+  ],
+  "description": "Aloha Editor test",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "none"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

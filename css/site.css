@@ -1,0 +1,10 @@
+body {
+  padding-top: 50px;
+}
+
+.editable {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  min-height: 100%;
+}
